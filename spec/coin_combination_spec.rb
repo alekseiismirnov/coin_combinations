@@ -11,4 +11,16 @@ describe "coin_combination" do
       expect(coin_combination(amount)).to eq (1)
     end
   end
+
+  it "returns 2 for 2" do 
+      expect(coin_combination(2)).to eq (2)
+  end
+
+  it "returns 3 for 101" do 
+      expect(coin_combination(101)).to eq (3)
+  end
+
+  it "returns 4 for 102" do 
+      expect(coin_combination(101)).to eq (3)
+  end
 end
